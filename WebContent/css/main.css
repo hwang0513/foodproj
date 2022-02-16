@@ -1,0 +1,129 @@
+body {
+  width: 80%;
+  margin: auto;
+}
+
+#logo {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 硫붿씤 寃��깋李� */
+#search {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: burlywood;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search_input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  caret-color: transparent;
+  line-height: 40px;
+  padding: 0 10px;
+  width: 550px;
+  caret-color: red;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon {
+  background: white;
+  color: #e74c3c;
+}
+
+.search_icon {
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+}
+
+/* 罹먮윭�� */
+.carousel-item > img {
+  top: 0;
+  left: 0;
+  background-color: gray;
+  max-width: 100%;
+  max-height: 200px;
+}
+
+/* 愿묎퀬 */
+#advertise {
+  display: flex;
+  justify-content: end;
+}
+
+/* 怨듭��궗�빆, �옄�쑀寃뚯떆�뙋 */
+#notice th {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#freeBoard th {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+td:nth-child(2) {
+  text-align: center;
+}
+
+/* Best �슂由� �젅�떆�뵾 */
+table {
+  display: flex;
+  border-spacing: 10px;
+}
+
+#leftHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+
+#bestRecipe img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+  margin: auto;
+  height: 60px;
+  background-color: #e74c3c;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.footer img {
+  display: flex;
+  align-items: flex-start;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
